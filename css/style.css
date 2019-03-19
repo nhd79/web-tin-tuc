@@ -4,13 +4,25 @@
     background: #8aff8a;
 }
 
-.header-content{
-	display: inline-block;
-    text-align: center;
+/* Section */
+.section{
+	margin-top:10px;
+	margin-bottom: 10px;
 }
 
-.header-contact{
-	float:right;
+.news-title{
+	    background: rgba(0, 0, 0, 0.63);
+    padding: 10px 15px;
+    font-size: 22px;
+    width: 98%;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    color: #fff;
+    border-left: 4px solid #5a83f5;
 }
 
  #dock-container {
