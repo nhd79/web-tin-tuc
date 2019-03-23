@@ -11,7 +11,7 @@
 }
 
 .news-title{
-	    background: rgba(0, 0, 0, 0.63);
+	background: rgba(0, 0, 0, 0.63);
     padding: 10px 15px;
     font-size: 22px;
     width: 98%;
@@ -57,7 +57,7 @@
 }
 #dock-container li:hover + li img,
 #dock-container li.prev img {
-	-webkit-transform: scale(1.5);
+	-webkit-transform: scale(1.2);
 	margin: 0 1.5em;
 }
 
