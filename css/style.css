@@ -76,6 +76,7 @@ time{
 }
 
 
+/*Menu open*/
  #dock-container {
     position: fixed;
     bottom: 0;
@@ -126,7 +127,7 @@ time{
     display: block;
     color: #fff;
 }
-
+/*Menu close*/
 
 /* Responsive */
 
