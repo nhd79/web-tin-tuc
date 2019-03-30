@@ -7,6 +7,9 @@
     background: #8aff8a;
 }
 
+#wrapper{
+	margin-bottom: 110px;
+}
 a{
 	text-decoration: none;
 }
@@ -73,15 +76,15 @@ time{
 }
 
 
+/*Menu open*/
  #dock-container {
- 	display: none;
     position: fixed;
     bottom: 0;
     text-align: center;
-    right: 20%;
-    left: 20%;
-    width: 60%;
-    background: #e8e8e8;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background: #e0ecdd;
     border-radius: 300px 300px 0 0;
 }
 #dock-container li {
@@ -124,7 +127,7 @@ time{
     display: block;
     color: #fff;
 }
-
+/*Menu close*/
 
 /* Responsive */
 
