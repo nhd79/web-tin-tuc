@@ -4,7 +4,7 @@
 }
 #header{
 	padding: 30px;
-    background: #8aff8a;
+   background: #8aff8a;
 }
 
 #wrapper{
@@ -14,14 +14,33 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 time{
 	font-size:12px;
 	font-weight: 400;
+}
+
+i{
+  margin-right: 5px;
+}
+
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
 }
 /* Section */
 .section{
 	margin-top:10px;
 	margin-bottom: 10px;
+}
+
+.title{
+  color:green;
 }
 
 .news-title{
@@ -45,7 +64,7 @@ time{
 
 /*Hightlight-news*/
 .summary-highlight-news{
-	width: 65%;
+	/*width: 65%;*/
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -66,7 +85,7 @@ time{
 	color:black;
 	display: block;
 	font-weight: 600;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 18px;
 }
 
@@ -75,6 +94,70 @@ time{
 	text-decoration: none;
 }
 
+.time{
+  display: block;
+}
+
+.min-menu-post-header{
+  margin: 10px 0;
+}
+
+.min-menu-post-header a{
+  color:green;
+  font-size:25px;
+  font-weight: 600;
+}
+.min-menu-post-header>ul>li{
+  display: inline-block;
+}
+.background-post-header{
+  background-image: url(../img/seagame/anh1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+    width: 100%;
+}
+
+.post-header{
+    height: 550px;
+    width: 100%;
+    display: table;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+
+}
+
+.title-post-header{
+    display: table-cell;
+    vertical-align: bottom;
+    padding-left: 25px;
+}
+
+.title-post-header>p{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.title-post-header>ul{
+  padding: 0;
+}
+.title-post-header>ul>li{
+      list-style: none;
+    border: 1px solid white;
+    border-radius:10px;
+    display: inline-block;
+    /* padding: 1px; */
+    padding: 0 7px;
+    color: white;
+    background: #178a16;
+    font-weight: 500;
+}
+
+.title-highlight-news{
+    border-bottom: 2px solid green;
+    margin:  10px 0 16px;
+    font-size:25px;
+}
 
 /*Menu open*/
  #dock-container {
