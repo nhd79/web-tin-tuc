@@ -159,6 +159,16 @@ li{
     font-size:25px;
 }
 
+#content{
+  width: 100%;
+  background-color: #ffffff;
+  height: 1000px;
+}
+.reading-window .social-media{
+  padding:25px;
+}
+
+
 /*Menu open*/
  #dock-container {
     position: fixed;
