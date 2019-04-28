@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Admin-Dashboard</title>
+	<link rel="stylesheet" href="/stylesheets/login-admin.css">
+</head>
+<body>
+	<div class="container-admin">
+		<nav id="left-nav">
+			<div id="logo">
+				Tin bóng đá
+			</div>
+			<ul id="menu">
+				<li><a href="#">Thống kê</a></li>
+				<li><a href="#">Đăng bài</a></li>
+				<li><a href="#">Xem bài</a></li>
+				<li><a href="#">Quản lý thành viên</a></li>
+				<li><a href="#">Đéo biết</a></li>
+			</ul>
+			<div id="minimize" onclick="getminimize();">
+				&lt;
+			</div>
+		</nav>
+		<header id="top-nav">
+			<div id="links">
+				<a href="./logout">Logout</a>
+			</div>
+		</header>
+		<main id="main">
+			<div id="maximize" onclick="getmaximize()">
+				&gt;
+			</div>
+		</main>
+	</div>
+	<script type="application/javascript" src="/javascripts/script.js"></script>
+</body>
+</html>
