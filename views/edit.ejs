@@ -38,12 +38,25 @@
                 &gt;
             </div>
             <div class="action-container">
-                <div id="home-action">
-                    <h1 style="text-align: center;">Thống kê</h1>
-                    <h2>Số bài: </h2><span><%- total%></span>
-                    <div class="static_Table">
-                        <%- listNews%>
-                    </div>
+
+                <div id="addNews-action" style="text-align: center; margin-top: 10px">
+                    <h1>Đăng bài viết mới</h1>
+                    <form id="login" action="/login/admin/edit" method="post">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Tên bài viết </label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" name="title" placeholder="Tên bài viết" value=<%- title%>>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Nội dung bài viết</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" name="content" placeholder="Nội dung bài viết" value=<%- content%>>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Nội dung bài viết</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" name="url" placeholder="Nội dung bài viết" value=<%- url%>>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </main>

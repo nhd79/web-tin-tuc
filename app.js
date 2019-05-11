@@ -33,7 +33,7 @@ app.use(session({
 	secret:'try hard',
 	resave: true,
 	saveUninitialized: false,
-	cookie: { maxAge: 50000 },
+	cookie: { maxAge: 500000 },
 	store: new MongoStore({
 		mongooseConnection: db
 	})
